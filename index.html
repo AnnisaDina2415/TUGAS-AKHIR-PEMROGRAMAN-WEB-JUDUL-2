@@ -63,5 +63,32 @@
     </div>
 </div>
 
+<hr>
+
+<section class="form-wrapper">
+    <div class="form-container">
+        <h1>Formulir Minat Kolaborasi</h1>
+        <form action="#" method="POST">
+            <label for="nama">Nama Anda <span class="required"></span></label>
+            <input type="text" id="nama" name="nama" required>
+            
+            <label for="email">Email <span class="required">*</span></label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="minat">Jenis Kolaborasi</label>
+            <select id="minat" name="minat">
+                <option value="freelance">Freelance Project</option>
+                <option value="magang">Peluang Magang</option>
+                <option value="diskusi">Diskusi Umum</option>
+            </select>
+            
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan singkat..."></textarea>
+            
+            <button type="submit">Kirim Form</button>
+        </form>
+    </div>
+</section>
+
 </body>
 </html>
